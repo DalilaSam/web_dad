@@ -1,0 +1,354 @@
+main{
+ padding: 0;
+ margin: 0;
+}
+
+/*header*/
+
+header{
+  padding: 10px;
+}
+
+.containerPages{
+  min-height: 65vh;
+}
+
+/*Api page*/
+
+.card{
+  padding: 16px;
+  width: 40%;
+}
+
+.apicontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imagecat{
+  padding: 10px;
+}
+
+.catimage{
+  margin: 10px;
+  width: 90%;
+  height: auto;
+}
+
+/*NavBar*/
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color:white;
+}
+
+/*Section*/
+
+section{
+  margin: 10px;
+}
+
+/*Task Page*/
+
+.taskcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.taskcontainer-centered {
+  width: 50%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.delete_button{
+  border: none;
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*Components*/
+
+.cajas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.caja{
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 400px;
+  height: auto;
+  align-items: center;
+  border: double;
+  border-width: 10px;
+}
+
+.caja img {
+  width: 50%;
+  object-fit: cover;
+  height: auto;
+  margin: 10px;
+}
+
+/*Footer*/
+
+
+.icon :hover{
+  transform: scale(1.5);
+  transition: transform 0.3s;
+}
+
+.footertext{
+  color: grey !important;
+}
+
+/*Micro*/
+
+.divMic{
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+/*Informes*/
+
+.informeMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.informe-centered {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/*Dark/light mode
+
+/*Darkmode*/
+
+  /*Letras*/
+
+  .dark h1{
+    color: white;
+  }
+
+  .dark h2{
+    color: white;
+  }
+
+  .dark p{
+    color: white
+  }
+
+  .dark label{
+    color: white
+  }
+
+  /*Header*/
+
+  .dark header{
+    background-color: rgb(40, 38, 38);
+  }
+
+  /*Footer*/
+
+  .dark footer{
+    background-color: rgb(11, 11, 11);
+    padding: 2%;
+  }
+
+  /*Api*/
+
+  .dark .apimain{
+    background-color: rgba(30, 29, 28, 0.8);
+    padding: 10%;
+  }
+
+  .dark .card{
+    background-color: rgb(112, 112, 112);
+  }
+
+  /*nav*/
+
+  .dark nav{
+    background-color: rgb(88, 86, 85);
+  }
+
+  /*tareas*/
+
+  .dark .taskcontainer-centered{
+    background-color: rgba(30, 29, 28, 0.8);
+  }
+
+  .dark li{
+    color: white;
+  }
+
+  /*Botones*/
+
+  .dark .delete_button{
+    background-color: brown;
+  }
+
+  /*Input*/
+
+  .dark .text_input{
+    background-color: rgb(56, 56, 53);
+    color: rgb(223, 234, 230);
+  }
+
+  /*Components*/
+
+  .dark .caja{
+    background-color: rgba(30, 29, 28, 0.8);
+    border-color: black;
+  }
+
+  /*Mic*/
+
+  .dark .divMic{
+    background-color: rgba(30, 29, 28, 0.8);
+  }
+
+  /*Informe*/
+
+  .dark .informe-centered{
+    background-color: rgba(30, 29, 28, 0.3);
+  }
+
+  .dark input[type="file"] {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+/*light-mode*/
+
+/*Letras*/
+
+  .light h1{
+    color: rgb(50, 49, 49);
+  }
+
+  .light h2{
+    color: rgb(8, 8, 8);
+  }
+
+  .light p{
+    color: rgb(37, 35, 35);
+  }
+
+  .light label{
+    color: black;
+  }
+
+  /*Header*/
+
+  .light header{
+    background-color: rgb(225, 214, 214);
+  }
+
+  /*Footer*/
+
+  .light footer{
+    background-color: rgb(225, 214, 214);
+    padding: 2%;
+  }
+
+  /*Api*/
+
+  .light .apimain{
+    background-color: rgba(215, 208, 201, 0.8);
+    padding: 10%;
+  }
+
+  .light .card{
+    background-color: rgb(228, 228, 228);
+  }
+
+  /*Nav*/
+
+  .light nav{
+    background-color: rgb(157, 146, 140);
+  }
+
+  /*Tareas*/
+
+  .light .taskcontainer-centered{
+    background-color: rgba(215, 208, 201, 0.8);
+  }
+
+
+  /*Components*/
+
+  .light .caja{
+    background-color: rgba(215, 208, 201, 0.8);
+    border-color: rgb(116, 116, 116);
+  }
+
+  /*Input*/
+
+  .light .text_input{
+    background-color: rgb(216, 216, 204);
+    color: rgb(48, 51, 50);
+  }
+
+  /*Mic*/
+
+  .light .divMic{
+    background-color: rgba(215, 208, 201, 0.8);
+  }
+
+  /*informe*/
+
+  .light .informe-centered{
+    background-color: rgba(215, 208, 201, 0.8);
+  }
+
+  .light input[type="file"] {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+  } 
+
+  
+@media screen and (max-width: 765px){
+  .cajas{
+    display: inline-block;
+    width: 100%;
+  }
+  .caja{
+    margin: 20px auto;
+    width: 80%;
+  }
+}
