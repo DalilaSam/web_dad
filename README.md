@@ -58,12 +58,6 @@ A simple web page for people who want to spend time looking at cat pictures/data
 - node-fetch
 - express
 
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
-
 ## Pages
 
 #### ApiPage
